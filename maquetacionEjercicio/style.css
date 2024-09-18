@@ -1,0 +1,135 @@
+body {
+    width: 1300px;
+    width: 1300px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    border: 3px solid #1F316F;
+    border-radius: 20px;
+    position: relative;
+}
+
+.containerLogo {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #CDC2A5;
+    height: 70px;
+    width: 200px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.containerLogo > h1 {
+    margin-left: 30px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+}   
+
+a {
+    margin-left: 70px;
+    text-decoration: none;
+    color: #1F316F;
+}
+
+
+.containerButton {
+    position: absolute;
+    background-color: #1F316F;
+    width: 200px;
+    height: 70px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    right: 0;
+    top: 0;
+}
+
+.sectionUno {
+    display: inline-block;
+}
+
+.sectionUno span {
+    height: 20px;
+    width: 20px;
+    background-color: #1F316F;
+    display: inline-block;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+
+.titleLogoSection {
+    color: #1F316F;
+    text-align: center;
+}
+
+.logoSection {
+    background-color: #1F316F;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+}
+
+.sectionUno p {
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+    bottom: 20px;
+}
+
+.sectionUno section {
+    width: 150px;
+    height: 100px;
+    border: 1px solid #1F316F;
+    text-align: center;
+    color: #1F316F;
+    border-radius: 5px;
+}
+
+.sectionUno > .divUno, .divDos {
+    width: 150px;
+    height: 15px;
+    background-color: #CDC2A5;
+    border-radius: 40px;
+    border: 3px solid #1F316F;
+}
+
+.divDos {
+    margin-top: 10px;
+}
+
+.sectionDos {
+    border: 1px solid #1F316F;
+    margin-top: 20px;
+    color: #1F316F;
+    text-align: center;
+    height: 250px;
+    width: 450px;
+    position: relative;
+}
+
+.sectionDos button {
+    background-color: #1F316F;
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    color: white;
+}
+
+div > span { 
+    height: 20px;
+    width: 20px;
+    background-color: #1F316F;
+    display: inline-block;
+    border-radius: 80px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 210px;
+}
